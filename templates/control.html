@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="uft-8"></meta>
+    <title>Control test</title>
+    </head>
+    <body>
+        <center>
+<h1>無人機手機控制</h1>
+<img src="https://upload.cc/i1/2020/11/19/6ZzyF0.png" border="0" width="220" height="211" orgWidth="220" orgHeight="211" usemap="#direction" alt="" />
+<map name="direction" id="direction">
+<area alt="" title="" href="/go" shape="rect" coords="75,10,136,69" style="outline:none;" target="_self" />
+<area alt="" title="" href="/right" shape="rect" coords="139,61,210,126" style="outline:none;" target="_self" />
+<area alt="" title="" href="/RTL" shape="rect" coords="74,76,138,137" style="outline:none;" target="_self" />
+<area alt="" title="" href="/left" shape="rect" coords="4,60,72,132" style="outline:none;" target="_self" /> 
+<area alt="" title="" href="/back" shape="rect" coords="81,143,131,202" style="outline:none;" target="_self" />
+</map>
+<hr>
+      {% if cmd %}
+    <h2>當前指令 : {{cmd}}</h2>
+      {% endif %}
+        </center>
+    </body>
+</html>
